@@ -1,6 +1,6 @@
 // 啟用mitt
 const emitter = mitt();
-
+// JavaScript控制modal
 let myModal = {};
 
 // veeValidate rules規範
@@ -347,7 +347,7 @@ app.component('productModal' ,  {
             // post cart to API
             this.postCart();
         },
-        // post到API要傳送的資料
+        // post到API要傳送的資料結構
         postData(id , num =1) {
             // 把id、預設數量，加到toCard
             this.toCart.product_id = id;
